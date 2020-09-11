@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../components/Header";
-import { Link } from "react-router-dom";
+import { Button } from "react-bootstrap";
+import Services from "../components/Services";
 
 function Homepage() {
   return (
@@ -9,14 +10,20 @@ function Homepage() {
         title="Academy Web"
         subtitle="Selamat datang di website resmi Academy Web, Sekolah Informatika dengan kompetensi keahlian Multimedia dan Rekayasa Perangkat Lunak"
       >
-        <Link to="/profile/about" className="btn btn-outline-secondary mr-5">
+        <Button
+          variant="outline-secondary"
+          href="/profile/about"
+          size="lg"
+          className="mr-3"
+        >
           Tentang Sekolah
-        </Link>
-
-        <Link to="/auth/register" className="btn btn-outline-secondary">
+        </Button>
+        <Button variant="outline-secondary" href="/profile/about" size="lg">
           Daftar
-        </Link>
+        </Button>
       </Header>
+
+      <Services />
     </div>
   );
 }

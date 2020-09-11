@@ -3,7 +3,7 @@ import { Jumbotron, Container } from "react-bootstrap";
 
 function Header({ title, subtitle, children }) {
   return (
-    <Jumbotron fluid className="text-center bg-dark text-light">
+    <Jumbotron fluid className="text-center bg-dark text-light front">
       <Container>
         <h1>{title}</h1>
         <p className="mb-4 lead">{subtitle}</p>
