@@ -1,10 +1,13 @@
 import React from "react";
 import { Navbar, Nav, NavDropdown } from "react-bootstrap";
+import { MdSchool } from "react-icons/md";
 
 function AppNavbar() {
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-      <Navbar.Brand href="/">Academy Web</Navbar.Brand>
+      <Navbar.Brand href="/">
+        <MdSchool /> Academy Web
+      </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto">
@@ -26,8 +29,8 @@ function AppNavbar() {
           </NavDropdown>
         </Nav>
         <Nav>
-          <Nav.Link href="/register">Daftar</Nav.Link>
-          <Nav.Link eventKey={2} href="/login">
+          <Nav.Link href="/auth/register">Daftar</Nav.Link>
+          <Nav.Link eventKey={2} href="/auth/login">
             Masuk
           </Nav.Link>
         </Nav>
