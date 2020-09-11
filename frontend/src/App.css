@@ -9,6 +9,10 @@ body {
   background: #ccc;
 }
 
+.front {
+  height: 100vh;
+}
+
 .section-title {
   text-align: center;
   margin-bottom: 4rem;
@@ -27,6 +31,7 @@ body {
 }
 
 .services {
+  height: 100vh;
   padding: 5rem 0;
 }
 .services {

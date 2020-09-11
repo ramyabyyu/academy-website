@@ -5,8 +5,8 @@ function Header({ title, subtitle, children }) {
   return (
     <Jumbotron fluid className="text-center bg-dark text-light front">
       <Container>
-        <h1>{title}</h1>
-        <p className="mb-4 lead">{subtitle}</p>
+        <h1 className="mt-5">{title}</h1>
+        <p className="mb-5 lead">{subtitle}</p>
 
         {children}
       </Container>
