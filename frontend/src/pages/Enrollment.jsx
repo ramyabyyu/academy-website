@@ -16,7 +16,7 @@ function Enrollment() {
         </Button>
       </Header>
 
-      <section className="enroll">
+      <section className="article">
         <div className="section-1">
           <Title title="Pendaftaran Calon Peserta Academy" />
           <p className="lead">
