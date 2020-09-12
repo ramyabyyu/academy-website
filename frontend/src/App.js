@@ -10,6 +10,7 @@ import Multimedia from "./pages/major/Multimedia";
 import Rpl from "./pages/major/Rpl";
 import Login from "./pages/auth/Login";
 import Register from "./pages/auth/Register";
+import Error from "./pages/Error";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path="/major/rpl" exact component={Rpl} />
         <Route path="/auth/login" exact component={Login} />
         <Route path="/auth/register" exact component={Register} />
+        <Route component={Error} />
       </Switch>
     </>
   );
