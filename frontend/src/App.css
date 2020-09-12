@@ -72,3 +72,25 @@ body {
     width: 100%;
   }
 }
+
+.enroll {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  padding: 2rem 4rem;
+}
+
+.section-1,
+.section-2,
+.section-3 {
+  padding: 2rem;
+}
+
+@media screen and (max-width: 992px) {
+  .section-title h4 {
+    font-size: 1.7rem;
+  }
+}
+
+.faq {
+  padding: 2rem 4rem;
+}
