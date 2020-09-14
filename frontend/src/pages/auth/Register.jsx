@@ -13,10 +13,14 @@ function Register() {
           <div className="col-md-6">
             <Form>
               <Form.Group controlId="registerForm.ControlInput1">
+                <Form.Label>Name</Form.Label>
+                <Form.Control type="text" placeholder="Masukan Nama" />
+              </Form.Group>
+              <Form.Group controlId="registerForm.ControlInput2">
                 <Form.Label>Email</Form.Label>
                 <Form.Control type="email" placeholder="contoh@gmail.com" />
               </Form.Group>
-              <Form.Group controlId="registerForm.ControlInput2">
+              <Form.Group controlId="registerForm.ControlInput3">
                 <Form.Label>Password</Form.Label>
                 <Form.Control type="password" placeholder="Password" />
               </Form.Group>
